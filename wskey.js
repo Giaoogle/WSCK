@@ -10,9 +10,9 @@ let CK = $request.headers['Cookie'] || $request.headers['cookie'];
 
 const pin = CK.match(/pin=([^=;]+?);/)[1];
 const key = CK.match(/wskey=([^=;]+?);/)[1];
-const _TGUserID = $.getData('JDGiaoBot');
+const _TGUserID = $.getData('GiaochatBot');
 
-$.TGBotToken = '2137569409:AAGq6eBwpdDHtGeONtJaeQo_o6Gt3atGYFU';
+$.TGBotToken = '2015055553:AAHYOZBa5BKeLMBKs2kix4ZLglzUMKCkQN4';
 $.TGUserIDs = [-1001271898634];
 if (_TGUserID) {
   $.TGUserIDs.push(_TGUserID);
